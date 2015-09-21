@@ -1,0 +1,89 @@
+<html>
+<head>
+<title> Lab 3 </title>
+<script src="Script/processing.js"></script>
+<script type="text/processing" data-processing-target="mycanvas">
+
+void setup(){
+
+size( 500, 500 );
+background(0,0,0);
+frameRate( 30 );
+
+text("MAZE!",0,20);
+
+
+
+strokeWeight(50); 
+stroke(255,0,0);
+line(0,500,500,500); 
+
+strokeWeight(50); 
+stroke(255,0,0); 
+line(500,0,0,0);  
+
+strokeWeight(50); 
+stroke(255,0,0); 
+line(0,500,0,0);  
+
+strokeWeight(50); 
+stroke(255,0,0);
+line(0,500,500,500);  
+
+strokeWeight(50); 
+stroke(255,0,0);
+line(500,0,500,500);  
+
+strokeCap(SQUARE);
+strokeWeight(50); 
+stroke(255,255,255);
+line(100,475,100,50);  
+
+strokeCap(SQUARE);
+strokeWeight(50); 
+stroke(255,255,255);
+line(175,75,475,75);  
+
+strokeCap(SQUARE);
+strokeWeight(50); 
+stroke(255,255,255);
+line(100,450,475,450);  
+
+strokeCap(SQUARE);
+strokeWeight(50); 
+stroke(255,255,255);
+line(450,50,450,450);  
+
+strokeCap(SQUARE);
+strokeWeight(50); 
+stroke(255,255,255);
+line(200,50,200,350);  
+
+strokeCap(SQUARE);
+strokeWeight(50); 
+stroke(255,255,255);
+line(175,330,370,330);  
+
+strokeCap(SQUARE);
+strokeWeight(50); 
+stroke(255,255,255);
+line(346,250,346,330);  
+
+
+}
+
+		
+void draw()
+{
+
+}
+
+</script>
+<canvas id="mycanvas"></canvas>
+</head>
+
+<body>
+
+</body>
+</html>
+
